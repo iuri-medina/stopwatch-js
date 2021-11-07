@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face { 
+    font-family: 'Clock Font';
+    src: url('../fonts/open-24-display-st.ttf');
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #202124;
+}
+
+#timer {
+    margin-top: 15%;
+    margin-bottom: 40px;
+    
+    color: rgb(0, 255, 0);
+    font-size: 4em;
+    font-family: 'Clock Font';
+}
+
+span {
+    display: inline;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    margin: 5px;
+
+    border: 1px solid #303134;
+    font-weight: bold;
+    background-color: transparent;
+    color: #fff;
+
+}
+
+button:hover {
+    background-color: #303134;
+    transform: scale(1.03);
+}
+
+button:active {
+    transform: scale(0.98);
+}
