@@ -13,20 +13,56 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    flex-wrap: nowrap;
+
     background-color: #202124;
 }
 
-#timer {
+#container-watch {
     margin-top: 15%;
-    margin-bottom: 40px;
-    
-    color: rgb(0, 255, 0);
-    font-size: 4em;
-    font-family: 'Clock Font';
+    padding: 70px;
 }
 
-span {
-    display: inline;
+#btn1 {
+    width: 20px;
+    height: 10px;
+    margin-bottom: -7px;
+    margin-left: 170px;
+
+    background-color: rgb(26, 26, 26);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+#btn2 {
+    width: 20px;
+    height: 10px;
+    margin-bottom: -3px;
+    margin-left: 140px;
+
+    background-color: rgb(26, 26, 26);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+#watch {
+    width: 200px;
+    height: 90px;
+    padding: 5px;
+    position: relative;
+
+    color: rgb(0, 255, 0);
+    background-color: rgb(26, 26, 26);
+    font-family: 'Clock Font';
+    font-size: 4em;
+
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+#screen {
+    background-color: #000;
+}
+
+#hour {
+    margin-left: 7px;
 }
 
 button {
