@@ -2,7 +2,7 @@ const hour = document.querySelector('#hour');
 const minute = document.querySelector('#minute');
 const second = document.querySelector('#second');
 
-let num1, num2, num3 = 0;
+let num1 = 0, num2 = 0, num3 = 0;
 
 const startBtn = document.querySelector('#start');
 const stopBtn = document.querySelector('#stop');
