@@ -39,7 +39,7 @@ const start = startBtn.addEventListener("click", (e) => {
 
         timer.innerHTML = hour + ":" + minute + ":" + second;
 
-    }, 10), startBtn.disabled = true;
+    }, 1000), startBtn.disabled = true;
 
 }
 )
